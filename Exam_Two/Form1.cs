@@ -39,10 +39,10 @@ namespace Exam_Two
             }
             if (radioButton2.Checked)
             {
-                int a = Convert.ToInt32(numericUpDown1.Value);
-                int b = Convert.ToInt32(numericUpDown2.Value);
-                int c = Convert.ToInt32(numericUpDown3.Value);
-                int P = (a + b + c) / 2;
+                double a = Convert.ToDouble(numericUpDown1.Value);
+                double b = Convert.ToDouble(numericUpDown2.Value);
+                double c = Convert.ToDouble(numericUpDown3.Value);
+                double P = (a + b + c) / 2;
                 textBox4.Text = Convert.ToString(P);
             }
         }
